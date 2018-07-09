@@ -12,8 +12,8 @@ public class LessonTwoJobFive {
 		
 		int a = ((((n-d)/10-c)/10-b)/10)%10;
 		
-		System.out.println("Перевернутое число " + d + c + b + a);
-		if (a == b | a == c | a == d | b == c | b == d | c == d) System.out.println( "Несколько цыфр числа одинаковы");
-		else System.out.println( "Все цыфры числа различны");
+		System.out.println("Inverted number " + d + c + b + a);
+		if (a == b | a == c | a == d | b == c | b == d | c == d) System.out.println( "Several digits of the number are the same");
+		else System.out.println( "All digits of the number are different");
 	}
 }

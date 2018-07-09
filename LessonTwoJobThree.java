@@ -7,7 +7,7 @@ public class LessonTwoJobThree {
 	double z = Math.sqrt (Math.pow(a, c) + Math.pow(b, c));
 	double r = 2.5;
 	if (r >= z) System.out.println( "Круг закроет прямоугольник");
-	if (r < z) System.out.println( "Круг не закроет прямоугольник");
+	else System.out.println( "Круг не закроет прямоугольник");
 	System.out.println(z);
 	
 	}
